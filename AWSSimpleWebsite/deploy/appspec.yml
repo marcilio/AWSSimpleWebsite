@@ -1,0 +1,5 @@
+version: 0.0
+os: linux
+files:
+  - source: /AWSSimpleWebsite.war
+    destination: /var/lib/tomcat7/webapps/

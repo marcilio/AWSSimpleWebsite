@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>CPU Consumer</title>
+</head>
+<body>
+
+<h2>AWSSimpleWebsite - Observe your Elastic Load Balancer in action and test Auto-Scaling Group policies!</h2>
+
+<p>Point your load tester to http://[service-URL]/AWSSimpleWebsite/LoadGeneratorServlet and have it push lots of requests concurrently. 
+Notice CPU consumption of EC2 instances going up. Set up CloudWatch alarms based on CPU consumption and attach them to your Auto-Scaling Groups.
+As TPS increases and CPU consumption raises you'll notice new EC2 instances being launched to handle the load. 
+
+<ul>
+<li>Test your ASG policies: the higher the TPS the higher the CPU load!</li>
+<li>Observe your ELB in action: each instance will start with (and stick to) a random latency which will allow you to see your ELB distributing the load unevenly across instances.</li>
+</ul>
+
+</body>
+</html>
