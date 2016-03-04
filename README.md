@@ -1,6 +1,6 @@
 # AWSSimpleWebsite
 
-With AWSSimpleWebsite you can simulate CPU loads on EC2 instances and see your ElasticLoadBalancer and AutoScalingGroups in action! 
+AWSSimpleWebsite is a Tomcat Website (Java Servlets) that can simulate CPU loads on EC2 instances and see your ElasticLoadBalancer and AutoScalingGroups in action! Genereate a .war deployable file and deploy the site to your EC2 instances with a running Tomcat instance.
 
 
 
